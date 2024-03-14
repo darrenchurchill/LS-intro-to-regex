@@ -24,4 +24,4 @@ Be a busy bee
 I brake for animals.`
 );
 
-console.log(string.match(/b[a-z]*e/gm));
+console.log(string.match(/b[a-z]*e/g));

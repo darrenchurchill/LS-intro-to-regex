@@ -26,4 +26,4 @@ https://user.example.com/a.cgi?a=p&c=0 hello
     https://launchschool.com/`
 );
 
-console.log(string.match(/\bhttps?:\/\/\S*/gm));
+console.log(string.match(/\bhttps?:\/\/\S*/g));

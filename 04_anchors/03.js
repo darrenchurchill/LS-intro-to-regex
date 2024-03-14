@@ -23,4 +23,4 @@ The lazy cat sleeps.
 The number 623 is not a word. Or is it?`
 );
 
-console.log(string.match(/\b[a-z]{3}\b/gmi));
+console.log(string.match(/\b[a-z]{3}\b/gi));
