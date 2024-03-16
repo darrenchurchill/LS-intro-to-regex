@@ -25,4 +25,8 @@ Oh my darling, Clementine!
 Camptown ladies sing this song, doo dah.`
 );
 
+// My original solution
 console.log(string.match(/\b\S*$/gm));
+
+// An alternative book solution
+console.log(string.match(/\S+$/gm));
